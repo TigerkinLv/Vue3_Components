@@ -1,0 +1,34 @@
+.itemLineInput{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  margin: 0 12px;
+  border-bottom: 1px solid #eee;
+  .left{
+    width: 38%;
+  }
+  .redSign{
+    color: #E02020;
+  }
+  .right{
+    flex-grow: 2;
+  }
+  .lineInput{
+    border: none;
+    outline: none;
+    width: 100%;
+    &::placeholder{
+      color: #CCCCCC;
+      font-size: 17px;
+    }
+  }
+}
+.vertical{
+  flex-direction: column;
+  .lineInput{
+    margin-top: 7px;
+  }
+  .left{
+    width: 100%;
+  }
+}
